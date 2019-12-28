@@ -14,9 +14,6 @@
     "test": "jest"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "ui/src/**/*.js"
-    ],
     "watchPlugins": [
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
