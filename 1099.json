@@ -1,0 +1,254 @@
+{
+  "name": "IRS 1099",
+  "schema": {
+    "openform": "1.0.0",
+    "pages": [
+      {
+        "name": "State Tax",
+        "settings": {
+          "width": 2480,
+          "height": 3508
+        },
+        "grid": {
+          "width": 930,
+          "align": "center"
+        },
+        "elements": [
+          {
+            "type": "box",
+            "name": "payer_info",
+            "description": "PAYER’S name, street address, city or town, state or province, country, ZIP or foreign postal code, and telephone no.",
+            "location": [1, 6, 40, 16],
+            "value": "Overlay Labs LLC <br/>2407 S. Jefferson Ave. <br/>St. Louis, MO 63114"
+          },
+          {
+            "type": "box",
+            "name": "payer_tin",
+            "description": "PAYER'S TIN",
+            "location": [20, 8],
+            "value": "84-2248575"
+          },
+          {
+            "type": "box",
+            "name": "recipient_tin",
+            "description": "RECIPIENT'S TIN",
+            "location": [21, 22, 20, 8],
+            "value": "008-13-0001"
+          },
+          {
+            "type": "box",
+            "name": "recipient_name",
+            "description": "RECIPIENT's name",
+            "location": [1, 30, 40, 7],
+            "value": "Noah Tatko",
+            "boxStyle": {
+              "border-bottom": "none"
+            }
+          },
+          {
+            "type": "box",
+            "name": "recipient_address_street",
+            "description": "Street address (including apt. no.)",
+            "location": [40, 7],
+            "value": "10 Snow Way",
+            "boxStyle": {
+              "border-top": "none",
+              "border-bottom": "none"
+            }
+          },
+          {
+            "type": "box",
+            "name": "recipient_address_city_zip_state",
+            "description": "City or town, state or province, country, and ZIP or foreign postal code",
+            "location": [40, 7],
+            "value": "Brentwood, MO 63000",
+            "boxStyle": {
+              "border-top": "none"
+            }
+          },
+          {
+            "type": "box",
+            "name": "account_number",
+            "description": "Account Number (see instructions)",
+            "location": [40, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "name": "blank",
+            "location": [40, 7],
+            "value": "",
+            "boxStyle": {
+              "background": "#ccc"
+            }
+          },
+          {
+            "type": "box",
+            "prefix": "1",
+            "name": "rents",
+            "description": "Rents",
+            "location": [41, 6, 20, 6],
+            "value": "$0"
+          },
+          {
+            "type": "box",
+            "prefix": "2",
+            "name": "royalties",
+            "description": "Royalties",
+            "location": [20, 6],
+            "value": "$0"
+          },
+          {
+            "type": "box",
+            "prefix": "3",
+            "name": "other_income",
+            "description": "Other Income",
+            "location": [20, 4],
+            "value": "$20.00"
+          },
+          {
+            "type": "box",
+            "prefix": "5",
+            "name": "fishing_boat_proceeds",
+            "description": "Fishing boat proceeds",
+            "location": [20, 8],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "7",
+            "name": "payer_direct_sales_consumer",
+            "description": "Payer made direct sales of $5,000 or more of consumer products to a buyer (recipient) for resale",
+            "location": [20, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "9",
+            "name": "crop_insurance_proceeds",
+            "description": "Crop insurance proceeds",
+            "location": [20, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "11",
+            "name": "___",
+            "location": [20, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "13",
+            "name": "excess_golden_parachute_payments",
+            "description": "Excess golden parachute payments",
+            "location": [20, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "15",
+            "name": "state_tax_withheld",
+            "description": "State tax withheld",
+            "location": [20, 7],
+            "value": "$0"
+          },
+          {
+            "type": "box",
+            "name": "tax_year",
+            "description": "OMB No. 1545-0115",
+            "location": [61, 6, 12, 12],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "4",
+            "name": "federal_income_tax_withheld",
+            "description": "Federal income tax withheld",
+            "location": [19, 4],
+            "value": "$0"
+          },
+          {
+            "type": "box",
+            "prefix": "6",
+            "name": "medical_healthcare_payments",
+            "description": "Medical and healthcare payments",
+            "location": [19, 8],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "8",
+            "name": "substitue_payments",
+            "description": " Substitute payments in lieu of dividends or interest",
+            "location": [19, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "10",
+            "name": "gross_proceeds_to_attorney",
+            "description": " Gross proceeds paid to an attorney",
+            "location": [19, 7],
+            "value": "$"
+          },
+          {
+            "type": "box",
+            "prefix": "12",
+            "name": "section_409a_deferrals",
+            "description": "Section 409A deferrals",
+            "location": [19, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "14",
+            "name": "nonqualified_deferred_compensa",
+            "description": "Nonqualified deferred compensation",
+            "location": [19, 7],
+            "value": ""
+          },
+          {
+            "type": "box",
+            "prefix": "16",
+            "name": "state_payer_state_no",
+            "description": "State/Payer's state no.",
+            "location": [19, 7],
+            "value": ""
+          },
+          {
+            "type": "text",
+            "name": "___",
+            "description": "Miscellaneous Income",
+            "location": [73, 6, 25, 12],
+            "value": "",
+            "boxStyle": {
+              "border-top": "none",
+              "border-right": "none"
+            }
+          },
+          {
+            "type": "text",
+            "description": "Copy 1 For State Tax",
+            "location": [80, 18, 19, 40],
+            "value": "",
+            "boxStyle": {
+              "border-right": "none"
+            }
+          },
+          {
+            "type": "text",
+            "prefix": "17",
+            "name": "state_income",
+            "description": "State Income",
+            "location": [20, 7],
+            "value": "",
+            "boxStyle": {
+              "border-right": "none"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
