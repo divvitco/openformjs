@@ -19,6 +19,6 @@ test('exports a render method', () => {
   expect(openform.render instanceof Function).toBe(true)
 })
 
-test('exports a validate method', () => {
-  expect(openform.validate instanceof Function).toBe(true)
+test('exports a parse method', () => {
+  expect(openform.parse instanceof Function).toBe(true)
 })
