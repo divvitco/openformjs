@@ -1,14 +1,3 @@
-// const fill = require('./fill')
-// const parse = require('./fill')
-// const render = require('./fill')
-//
-// module.exports = {
-//   fill,
-//   parse,
-//   render
-// }
-
-
 const openform = require('./index')
 
 test('exports a fill method', () => {
