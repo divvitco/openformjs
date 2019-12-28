@@ -19,28 +19,28 @@
             "name": "payer_info",
             "description": "PAYER’S name, street address, city or town, state or province, country, ZIP or foreign postal code, and telephone no.",
             "location": [1, 6, 40, 16],
-            "value": "Overlay Labs LLC <br/>2407 S. Jefferson Ave. <br/>St. Louis, MO 63114"
+            "value": "Some Company Inc <br/>100 Awesome St. <br/>St. Louis, MO 00110"
           },
           {
             "type": "box",
             "name": "payer_tin",
             "description": "PAYER'S TIN",
             "location": [20, 8],
-            "value": "84-2248575"
+            "value": "01-0000001"
           },
           {
             "type": "box",
             "name": "recipient_tin",
             "description": "RECIPIENT'S TIN",
             "location": [21, 22, 20, 8],
-            "value": "008-13-0001"
+            "value": "001-01-0001"
           },
           {
             "type": "box",
             "name": "recipient_name",
             "description": "RECIPIENT's name",
             "location": [1, 30, 40, 7],
-            "value": "Noah Tatko",
+            "value": "John Doe",
             "boxStyle": {
               "border-bottom": "none"
             }
@@ -50,7 +50,7 @@
             "name": "recipient_address_street",
             "description": "Street address (including apt. no.)",
             "location": [40, 7],
-            "value": "10 Snow Way",
+            "value": "100 Awesome Way",
             "boxStyle": {
               "border-top": "none",
               "border-bottom": "none"
@@ -61,7 +61,7 @@
             "name": "recipient_address_city_zip_state",
             "description": "City or town, state or province, country, and ZIP or foreign postal code",
             "location": [40, 7],
-            "value": "Brentwood, MO 63000",
+            "value": "Some City, MO 00001",
             "boxStyle": {
               "border-top": "none"
             }
@@ -88,7 +88,7 @@
             "name": "rents",
             "description": "Rents",
             "location": [41, 6, 20, 6],
-            "value": "$0"
+            "value": ""
           },
           {
             "type": "box",
@@ -96,7 +96,7 @@
             "name": "royalties",
             "description": "Royalties",
             "location": [20, 6],
-            "value": "$0"
+            "value": ""
           },
           {
             "type": "box",
@@ -104,7 +104,7 @@
             "name": "other_income",
             "description": "Other Income",
             "location": [20, 4],
-            "value": "$20.00"
+            "value": "$2500.00"
           },
           {
             "type": "box",
@@ -151,7 +151,7 @@
             "name": "state_tax_withheld",
             "description": "State tax withheld",
             "location": [20, 7],
-            "value": "$0"
+            "value": ""
           },
           {
             "type": "box",
@@ -166,7 +166,7 @@
             "name": "federal_income_tax_withheld",
             "description": "Federal income tax withheld",
             "location": [19, 4],
-            "value": "$0"
+            "value": ""
           },
           {
             "type": "box",
@@ -190,7 +190,7 @@
             "name": "gross_proceeds_to_attorney",
             "description": " Gross proceeds paid to an attorney",
             "location": [19, 7],
-            "value": "$"
+            "value": ""
           },
           {
             "type": "box",
